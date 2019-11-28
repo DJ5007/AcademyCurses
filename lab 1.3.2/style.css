@@ -1,0 +1,15 @@
+h1 {
+    font-size: 4rem;
+}
+
+.wrap-ul ul {
+    list-style: none;
+}
+
+.wrap-ul ul li {
+    font-size: 3rem;
+}
+
+.wrap-ul ul li a {
+    text-decoration: none;
+}

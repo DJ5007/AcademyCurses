@@ -1,0 +1,46 @@
+header {
+    background-color: #44ffec;
+    padding: 15px;
+    margin: 15px;
+}
+
+div {
+    background-color: #ffb721;
+}
+
+button {
+
+    padding: 15px;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+header > button {
+    background-color: blueviolet;
+    outline: none;
+}
+
+header > button:hover {
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    background-color: #44ffec;
+}
+
+div {
+    margin-top: 40px;
+    display: inline-block;
+    padding: 15px;
+}
+
+div > button {
+    width: 45%;
+    margin-right: 5%;
+    background-color: orange;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+div > button:last-child {
+    margin-right: 0;
+}

@@ -1,0 +1,12 @@
+table,
+th,
+td,
+caption{
+    border: 1px solid #ee7bb4;
+    border-collapse: collapse;
+}
+caption{
+    border-bottom: none;
+}
+
+/*sourcetree*/

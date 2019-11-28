@@ -1,0 +1,21 @@
+
+html {
+    border: 1px solid blue;
+}
+
+body {
+    background-image: url(paper.png);
+    background-repeat: no-repeat;
+    background-color: #ccc;
+    background-position: center center;
+    border: 1px solid red;
+}
+
+
+
+/*a:first-child {*/
+/*    color: red;*/
+/*}*/
+/*a:last-child {*/
+/*    color: greenyellow;*/
+/*}*/
