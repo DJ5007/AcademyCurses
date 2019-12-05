@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+header{
+    background-color: yellowgreen;
+    color: #fff;
+    text-align: center;
+    font-family: "Comic Sans MS", sans-serif;
+    height: 300px;
+}
+
+h2{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    background-color: #000;
+}
+
+nav > button{
+    background-color: #000;
+    color: #fff;
+    outline: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+.main-content{
+    display: flex;
+}
+
+.leftBar{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftBar > div{
+    padding: 20px;
+}
+
+.img{
+    height: 200px;
+    background-color: lightblue;
+}
+
+.mainContent{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.mainContent > div{
+    padding: 20px;
+}
