@@ -1,0 +1,30 @@
+button{
+    margin: 25px;
+    text-align: center;
+    width: 100px;
+    padding: 20px;
+    cursor: pointer;
+    outline: none;
+    border: transparent;
+}
+button:hover{
+    transform: scale(1.2);
+    font-weight: bolder;
+}
+.red{
+    background-color: red;
+    color: white;
+}
+
+.container{
+    display: inline-grid;
+    font-size: 20px;
+}
+
+#formBtn{
+    margin-top: 0;
+    background-color: #eee;
+}
+#formBtn:hover{
+    transform: scale(1);
+}
