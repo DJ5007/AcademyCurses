@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+header > div{
+    border: 1px solid lime;
+    background-color: #848484;
+    padding: 20px;
+    width: 100px;
+
+}
+
+.c2{
+    flex-grow: 2;
+    margin: 0 30px;
+}
+
+.c3{
+    flex-grow: 3;
+    text-align: right;
+}
+
+.c3 span{
+    text-align: left;
+}
+
+.wrap1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 2px solid #848484;
+    margin: 25px 0;
+    padding-top: 25px;
+}
+
+.leftDiv{
+    width: 28.8vw;
+    border: 1px solid lime;
+    height: 300px;
+    background-color: #848484;
+}
+
+.rightDiv{
+    width: 69vw;
+}
+
+.rightOne{
+    border: 1px solid lime;
+    padding: 10px 20px;
+    background-color: #cdcdcd;
+}
+
+.rightTwo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    background-color: #fff;
+}
+
+.b6{
+    width: 250px;
+    height: 250px;
+    border: 1px solid lime;
+    background-color: #cdcdcd;
+    margin: 20px 20px 0 0;
+}
+
+.wrap2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100vw;
+    border-bottom: 2px solid #848484;
+    padding-bottom: 25px;
+}
+
+.leftDivBottom{
+    width: 28.8vw;
+    height: 250px;
+    border: 1px solid lime;
+    background-color: #848484;
+}
+
+.rightDivBottom{
+    width: 69.9vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rightDivBottom1,
+.rightDivBottom2{
+    background-color: #cdcdcd;
+    width: 46.7%;
+    border: 1px solid lime;
+    padding: 15px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.footerBox{
+    background-color: #848484;
+    width: 32.2vw;
+    height: 300px;
+    border: 1px solid lime;
+}
+.footerBoxRight{
+    height: 300px;
+    width: 32.2vw;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    border: 1px solid #fff;
+}
+
+.boxRightContent{
+    width: 100%;
+    height: 133px;
+    background-color: #848484;
+    border: 1px solid lime;
+}
+

@@ -1,0 +1,95 @@
+body{
+    background-image: url("img/space.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 700px;
+    margin: 2rem auto;
+    position: relative;
+}
+
+.orbita {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 650px;
+    height: 650px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    animation: marsRotation 10s infinite linear;
+}
+
+.orbita-jupiter {
+    position: absolute;
+    top: 13%;
+    left: 14%;
+    width: 450px;
+    height: 450px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    animation: marsRotation 15s infinite linear;
+    animation-direction: reverse;
+}
+
+.mars {
+    position: absolute;
+    top: 11%;
+    left: 11%;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.jupiter {
+    position: absolute;
+    top: 11%;
+    left: 11%;
+    width: 30px;
+    height: 30px;
+    background-color: violet;
+    border-radius: 50%;
+}
+
+.sun {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.sun:hover {
+    transform: scale(2);
+}
+
+.scale:hover {
+    transform: scale(1.5);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.orbita:hover {
+    animation-play-state: paused;
+}
+
+@keyframes marsRotation {
+    0% {
+        transform: rotateZ(0);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+
+}
